@@ -9,6 +9,7 @@
 import firebase from "firebase"
 import Header from "./components/templates/Header";
 
+
 export default {
   name: "App",
   components: {

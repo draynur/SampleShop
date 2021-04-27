@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <!-- <ShoppingCart/> -->
     <h1 class="display-1">One Stop Shop</h1>
     <!-- Welcome banner -->
     <div class="p-5 mb-4 bg-light rounded-3">
@@ -109,6 +110,8 @@
 
 <script>
 import data from "../../sample_shop_data.json";
+// import ShoppingCartItem from "./shopping-cart/ShoppingCartItem";
+// import ShoppingCart from './shopping-cart/ShoppingCart.vue';
 
 export default {
   data() {
@@ -116,6 +119,10 @@ export default {
       items: data
 
     }
+  },
+  components: {
+    // ShoppingCartItem,
+    // ShoppingCart
   },
   methods: {
     stripImages(text) {
